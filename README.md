@@ -21,3 +21,5 @@ Um sistema de controle de versões (VCS) é um software que auxilia desenvolvedo
 •	```SVN:``` É um sistema de controle de versão centralizado, onde existe um servidor único que armazena o projeto e seu histórico. Os desenvolvedores dependem desse servidor para realizar a maioria das operações, como commits e atualizações.
 
 •	```GitLab:``` é uma plataforma de gerenciamento de projetos baseada em Git. Ele não substitui o Git, mas fornece uma interface web e ferramentas para hospedar repositórios, colaborar em equipe e automatizar processos.
+
+•	```Git:``` É um sistema de controle de versão distribuído, usado para gerenciar alterações em arquivos e códigos ao longo do tempo. Cada desenvolvedor possui uma cópia completa do repositório, incluindo todo o histórico do projeto, o que permite trabalhar offline e com mais segurança.
