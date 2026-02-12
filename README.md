@@ -22,4 +22,59 @@ Um sistema de controle de versões (VCS) é um software que auxilia desenvolvedo
 
 •	```GitLab:``` é uma plataforma de gerenciamento de projetos baseada em Git. Ele não substitui o Git, mas fornece uma interface web e ferramentas para hospedar repositórios, colaborar em equipe e automatizar processos.
 
-•	```Git:``` É um sistema de controle de versão distribuído, usado para gerenciar alterações em arquivos e códigos ao longo do tempo. Cada desenvolvedor possui uma cópia completa do repositório, incluindo todo o histórico do projeto, o que permite trabalhar offline e com mais segurança.
+# Desafio 2 - 12/02/2026
+
+##  Oque é POO?
+Programação Orientada a Objetos (POO) é um paradigma de programação que organiza o desenvolvimento de sistemas com base no conceito de objetos, que representam entidades do mundo real dentro do software. Em vez de estruturar o programa apenas como um conjunto de funções e procedimentos, a POO combina dados e comportamentos em estruturas chamadas classes.Uma classe funciona como um modelo ou molde para criar objetos, e cada objeto possui características próprias, chamadas atributos, e ações que pode executar, chamadas métodos.A POO facilita a manutenção e a reutilização de código, pois cada parte do sistema pode ser desenvolvida de forma independente e com responsabilidades bem definidas. A POO tem 4 pilares sendo eles: Encapsulamento, Herança, Polimorfismo e Abstração. apresenta desvantagens como alta complexidade e curva de aprendizado íngreme, especialmente para iniciantes. Projetos pequenos podem se tornar excessivamente estruturado
+## Abstração:
+```Foca apenas nos aspectos essenciais de um objeto para o sistema, ignorando detalhes complexos e desnecessários.``` 
+
+Exemplo:
+Em um sistema de biblioteca, um livro real tem peso, cor, tipo de papel etc.
+Mas no sistema usamos apenas: título, autor, ISBN e disponibilidade.
+Ignoramos o resto porque não é necessário para controlar empréstimos.
+Ou seja, abstração é esconder detalhes desnecessários e manter só o essencial.
+## Encapsulamento:
+```Oculta detalhes internos do funcionamento de um objeto, protegendo os dados e expondo apenas o necessário via interfaces.```
+
+Exemplo:
+Em uma conta bancária, o saldo não pode ser alterado diretamente.
+Só é possível mudar o saldo usando métodos como depositar e sacar.
+Assim, o saldo fica protegido e segue regras (ex: não sacar mais do que tem).
+Encapsulamento é esconder os dados e controlar como eles são usados.
+
+##  Herança: 
+```Permite que uma classe (subclasse) herde atributos e métodos de outra (superclasse), promovendo o reaproveitamento de código.```
+
+Exemplo:
+Temos uma classe Animal com:
+nome
+"emitirSom"
+Criamos a classe Cachorro, que herda de Animal.
+O Cachorro já possui nome e emitirSom, mas pode adaptar o som para “latir”.
+Herança é reaproveitar características de uma classe base e criar versões mais específicas dela.
+
+## Polimorfismo:
+```Capacidade de objetos de diferentes classes serem tratados de forma uniforme, permitindo que métodos com o mesmo nome se comportem de maneiras diferentes.```
+
+Polimorfismo é quando diferentes classes respondem ao mesmo método de maneiras diferentes.
+
+Exemplo:
+Temos a classe Animal com o método emitirSom().
+Cachorro → emitirSom() = “Latir”;
+Gato → emitirSom() = “Miar”;
+Mesmo método, comportamentos diferentes.
+Polimorfismo é usar a mesma ação, mas com resultados diferentes dependendo do objeto.
+
+# 5 Vantagens da POO:
+• ```Reuso de código:``` classes e métodos podem ser usados em diferentes partes do programa ou em outros projetos.
+
+• ```Organização:``` o código fica mais estruturado, com objetos representando entidades reais.
+
+• ```Facilidade de manutenção:``` alterações em uma classe refletem em todos os lugares que a usam, tornando correções mais fáceis.
+
+• ```Encapsulamento:``` protege dados e garante que só possam ser acessados ou modificados de forma controlada.
+
+• ```Flexibilidade e extensibilidade:``` herança e polimorfismo permitem criar novas funcionalidades sem modificar código existente.
+
+
